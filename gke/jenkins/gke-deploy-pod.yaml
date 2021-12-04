@@ -17,6 +17,6 @@ kind: Pod
 spec:
   containers:
   - name: gke-deploy
-    image: gcr.io/jenkins-gke-plugin/jenkinsagent
+    image: gcr.io/sandbox-kompasid-poc/jenkins-integration-samples-gke:9
     command: ['cat']
     tty: true
